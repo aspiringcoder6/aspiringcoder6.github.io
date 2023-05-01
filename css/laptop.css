@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+  }
+  /* BANNER */
+  #banner {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-size: cover 500px;
+    background-position-x: center;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../images/banner.jpg);
+  }
+  #banner h1 {
+    margin-top: 50px;
+    font-size: 32px;
+  }
+  #banner span {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  /* NAVIGATION BAR */
+  #nav-bar {
+    text-align: center;
+  }
+  .nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .nav-bar-container p {
+    font-size: 20px;
+    line-height: 0.8;
+    flex-grow: 1;
+  }
+  .nav-bar-container span {
+    font-size: 10px;
+    color: rgb(209, 209, 209);
+  }
+  .nav:visited,
+  .nav:active,
+  .nav:link {
+    text-decoration: none;
+    color: black;
+    flex-grow: 1;
+    text-transform: uppercase;
+    border-left: 0.5px solid rgb(236, 236, 236);
+  
+    padding: 0 20px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .nav i {
+    color: rgb(70, 161, 226);
+  }
+  .bordered {
+    border-right: 0.5px solid rgb(236, 236, 236);
+  }
+  /* ABOUT SECTION */
+  
+  .target {
+    background-color: rgb(248, 248, 248);
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 20px;
+  }
+  .target h1 {
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  .target p {
+    margin-left: 40px;
+  }
+  .goal{
+    color: grey;
+     font-size: 12px
+  }
+  .personal-info {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: rgb(217, 217, 217);
+    font-family: "Montserrat", sans-serif;
+  }
+  .personal-info h1 {
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  .personal-info li {
+    font-size: 12px;
+    color: gray;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+  #personal-info li span {
+    font-weight: bold;
+    color: black;
+  }
+  .icon {
+    margin-left: 40px;
+    color: rgb(25, 156, 219);
+    margin-top: 30px;
+  }
+  /* JOB INFO */
+  #job-info {
+    display: grid;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+  #job-info .container {
+    border: 0.5px solid rgb(228, 228, 228);
+    width: 350px;
+    padding: 30px 30px 100px 30px;
+  }
+  #job-info .header {
+    display: inline-flex;
+    align-items: last baseline;
+  }
+  .header h1 {
+    margin-bottom: 40px;
+    margin-left: -15px;
+  }
+  .header i {
+    font-size: 40px;
+    color: rgb(160, 160, 160);
+  }
+  #job-info ul {
+    list-style: none;
+  }
+  #job-info ul li::before {
+    content: "\2022";
+    color: rgb(25, 156, 219);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  #job-info ul li {
+    color: grey;
+    margin-bottom: 40px;
+  }
+  #job-info ul li span {
+    color: black;
+  }
+  .experience{
+    margin-right: 80px
+  }
+  .margin135{
+    margin-right: 135px;
+  }
+  .tag {
+    background-color: rgb(25, 156, 219);
+    color: white !important;
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .small-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .hobby {
+    text-align: center;
+  }
+  .hobby i,
+  .hobby span {
+    color: rgb(25, 156, 219);
+    border: 1px solid rgb(25, 156, 219);
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .hobby p {
+    color: grey;
+  }
+  .adjusted{
+    margin: 0 !important;
+  }
+  .skills-container {
+    display: inline-flex;
+  }
+  .bar {
+    background-color: rgb(25, 156, 219);
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+  }
+  .grey {
+    background-color: rgb(228, 228, 228) !important;
+  }
+  /* Chứng chỉ */
+  #certificate {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  
+  .prize {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    column-gap: 30px;
+    color: grey;
+    height: auto;
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  .prize span {
+    color: black !important;
+    font-size: 16px !important;
+  }
+  #certificate img {
+    width: 170px;
+    height: auto;
+  }
+  /* Dự Án */
+  .project img {
+    height: auto;
+    width: 100%;
+  }
+  .name {
+    color: black !important;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid rgb(228, 228, 228);
+  }
+  .name {
+    padding: 10px 0;
+    margin-left: 20px;
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  .information {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  .description {
+    display: inline-flex;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 10px;
+  }
+  .last {
+    border: none !important;
+  }
+  .time {
+    background-color: rgb(25, 156, 219);
+    color: white !important;
+    padding: 1px 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  /* FOOTER */
+  #footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+  }
+  #footer ul {
+    list-style-type: none;
+    justify-content: center;
+    font-size: 20px;
+  }
+  #footer li {
+    color: grey;
+  }
+  #footer i {
+    color: rgb(25, 156, 219);
+    font-size: 36px;
+  }
+  

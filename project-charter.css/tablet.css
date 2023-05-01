@@ -1,0 +1,49 @@
+@media (max-width:991px){
+    .bigcontainer {
+        display: flex;
+        flex-direction: column;
+      }
+      .goal {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      .goal:last-child {
+        margin-bottom: 30px;
+      }
+      .inAndOut {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+      }
+      .inAndOut:last-child {
+        margin-bottom: 30px;
+      }
+      .team .member {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      .member:last-child {
+        margin-bottom: 20px;
+      }
+      .question {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      .question:last-child {
+        margin-bottom: 30px;
+      }
+      .date {
+        display: flex;
+        flex-direction: column;
+      }
+      .number {
+        width: 6%;
+        margin-left: 10px;
+        font-size: 20px;
+        padding: 10px 10px;
+      }
+}

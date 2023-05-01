@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blue;
+  display: flex;
+  
+}
+/* Phần chứa */
+.bigcontainer {
+  width: 95vw;
+  height: 95vh;
+  display: grid;
+  margin: 18px auto;
+  gap:20px;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows: 6fr 4fr;
+}
+/* Style từng ô */
+.goals {
+  background-color: rgb(240, 248, 255);
+  grid-column: 1/3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.scopes {
+  background-color: rgb(240, 248, 255);
+  grid-column: 1/3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.team {
+  background-color: rgb(240, 248, 255);
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.primary {
+  background-color: rgb(240, 248, 255);
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.timeline {
+  background-color: rgb(240, 248, 255);
+
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+/* Style goals */
+h1{
+  padding-top: 10px;
+  margin:auto;
+  width: 95%;
+  color: blue;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(195,211,208);
+}
+.goal{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border-bottom: 1px solid rgb(195,211,208);
+  margin-top: 10px;
+}
+.goal .icon{
+  display: flex;
+  justify-content: center;
+}
+.goal i{
+  margin-top: 10px;
+  font-size: 36px;
+}
+.bold{
+  font-weight: bold;
+}
+/* Style scopes */
+.inAndOut{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* style team */
+.team .member{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 2fr 8fr;
+}
+.member .icon{
+  font-size: 30px;
+  margin: auto;
+}
+.member .bold{
+  margin-bottom: 10px;
+}
+/* Style primary */
+.question{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 10px;
+}
+.question i{
+  margin: auto ;
+  margin-top: 10px;
+  font-size: 30px;
+}
+/* style timeline */
+.date{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 15% 80%;
+  grid-template-rows: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.number{
+  border-radius: 50%;
+  border: 1px solid rgb(110,110,111);
+  display: flex;
+  height: 75%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(158,136,255);
+  font-size: 30px;
+}
+.date .text{
+  border-bottom: 1px dashed rgb(90,192,197);
+  margin-left: 10px;  
+}
+
+

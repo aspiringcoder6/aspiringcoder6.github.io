@@ -1,0 +1,7 @@
+@media (max-width:991px){
+    .prize:first-child {
+        border-bottom: 2px solid rgb(230, 219, 194);
+        border-right: none !important;
+        padding-bottom: 40px;
+      }
+}
